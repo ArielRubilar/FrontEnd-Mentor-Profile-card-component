@@ -53,7 +53,10 @@ html {
 body {
   min-height: 100vh;
   width: 100%;
-  background: var(--dark-cyan);
+  background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  background-repeat: no-repeat, no-repeat;
+  background-color: var(--dark-cyan);
   display: grid;
   place-items: center;
 }
